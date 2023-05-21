@@ -1,0 +1,22 @@
+{
+    "name": "user/app-salon_php_mvc_js_sass",
+    "description": "proyectophp8, gulp , sass",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\": "./",
+            "Controllers\\": "./controllers",
+            "Classes\\": "./classes",
+            "Model\\": "./models"
+        }
+    },
+    "authors": [
+        {
+            "name": "diego alexander vargas almeida"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.8",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
